@@ -84,21 +84,7 @@ Az elemzések alapján megállapítható, hogy:
 
 ---
 
-# Repository használata
 
-## Projekt klónozása
-
-```bash
-git clone <repository_link>
-```
-
-## Notebook futtatása
-
-```bash
-jupyter notebook
-```
-
----
 
 # Megjegyzés
 
