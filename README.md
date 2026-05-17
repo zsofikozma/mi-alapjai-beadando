@@ -29,22 +29,10 @@ A projekt GitHub repository-ban készült, ahol mindkét csapattag aktívan rés
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
 - GitHub
 
 ---
 
-# Projekt struktúra
-
-```text
-data/
-notebooks/
-images/
-README.md
-requirements.txt
-```
-
----
 
 # Megvalósított feladatok
 
@@ -80,10 +68,8 @@ A projekt során egyszerű regressziós modelleket is alkalmaztunk annak vizsgá
 
 A projekt során több grafikon és statisztikai ábra is készült, például:
 
-- hisztogramok
-- oszlopdiagramok
-- eloszlásvizsgálatok
-- scatter plotok
+- pontdiagram
+- oszlopdiagram
 
 ---
 
@@ -94,7 +80,7 @@ Az elemzések alapján megállapítható, hogy:
 - a legtöbb rendező csak kevés filmmel szerepel az adatbázisban,
 - néhány rendező és színész jelentősen kiemelkedik,
 - a filmek értékelései viszonylag kis szórást mutatnak,
-- az értékelések száma és a filmek értékelése között bizonyos kapcsolat megfigyelhető.
+- az értékelések száma és a filmek értékelése között gyenge kapcsolat megfigyelhető.
 
 ---
 
@@ -104,12 +90,6 @@ Az elemzések alapján megállapítható, hogy:
 
 ```bash
 git clone <repository_link>
-```
-
-## Könyvtárak telepítése
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Notebook futtatása
